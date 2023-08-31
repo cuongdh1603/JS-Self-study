@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="h1" >DOM Events</h1>
+    <!-- Từ khóa this -->
+    <h1 onclick="console.log(this)">DOM Events</h1>
+    <!-- Sự kiện nổi bọt -->
+    <h1 onclick="console.log(this)">
+        <span onclick="console.log(this)">DOM Events</span>
+    </h1>
+
+    <h1 onmouseover="console.log(Math.random())">DOM Events Mouse over</h1>
+    <h1 onmouseout="console.log(Math.random())">DOM Events Mouse out</h1>
+    <script src="DOM_js/DOM_events.js"></script>
+</body>
+</html>

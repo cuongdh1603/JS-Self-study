@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM events</title>
+    <style>
+        ul {
+            display: none;
+        }
+
+        input:focus ~ ul {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="Tìm kiếm">
+    <ul>
+        <li>Java</li>
+        <li>PHP</li>
+        <li>Golang</li>
+    </ul>
+    <div>
+        <a href="https://cafedev.vn/tu-hoc-javascript-ban-phim-keydown-and-keyup-trong-javascript/">
+            Học lập trình
+        </a>
+        <br>
+        <a href="https://google.com.vn">
+            Tìm kiếm
+        </a>
+    </div>
+    <div class="StopPropagation">
+        DIV 
+
+        <button>Click me!</button>
+    </div>
+    <script src="DOM_js/PreventDefault_StopPropagation.js"></script>
+</body>
+</html>
